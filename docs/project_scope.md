@@ -25,7 +25,7 @@ Specific objectives include:
 - Assess biological relevance of identified biomarkers.
 - Validate findings using independent external datasets.
 
-##Research Questions
+## Research Questions
 1. Which transcriptomic features best distinguish active TB from healthy controls?
 2. Can reduced biomarker panels achieve performance comparable to larger feature sets?
 3. Which machine learning algorithms provide the best balance between predictive performance and interpretability?
@@ -42,7 +42,7 @@ Specific objectives include:
 
 ## Datasets
 
-##Primary Dataset:
+## Primary Dataset:
 GSE19491
 
 Human whole-blood transcriptomic dataset
@@ -70,17 +70,17 @@ Used for external validation of discovered biomarkers
 - Support Vector Machine
 - XGBoost
 
-##Feature Selection
+## Feature Selection
 - Model-specific importance ranking
 - Cross-model consensus selection
 - Tiered biomarker classification
 
-##Explainability
+## Explainability
 - SHAP analysis
 - Feature contribution analysis
 - Biological interpretation
 
-##Validation
+## Validation
 - Stratified cross-validation
 - ROC analysis
 - External dataset validation
