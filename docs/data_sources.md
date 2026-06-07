@@ -47,7 +47,7 @@ This dataset was used for:
 
 ## External Validation Dataset
 
-# GSE25534
+## GSE25534
 
 #### Source
 - Repository: NCBI Gene Expression Omnibus (GEO)
