@@ -31,7 +31,7 @@ src/
 
 ## Author
 
-# Abdulrahman S. Hammond
+## Abdulrahman S. Hammond
 
 ## Current Status
 Project under active development
