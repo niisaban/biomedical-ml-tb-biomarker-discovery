@@ -20,10 +20,18 @@ The objective is to identify biologically meaningful gene signatures capable of 
 
 ## Repository Structure
 
-```text
+```
 data/
 docs/
 notebooks/
 reports/
 results/
 src/
+```
+
+## Author
+
+# Abdulrahman S. Hammond
+
+## Current Status
+Project under active development
