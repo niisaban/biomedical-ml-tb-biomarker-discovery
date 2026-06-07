@@ -4,7 +4,7 @@
 
 Biomedical Machine Learning for Tuberculosis Biomarker Discovery Using Human Transcriptomic Data
 
-##Background
+## Background
 
 Tuberculosis (TB) remains one of the leading infectious causes of mortality worldwide. Although transcriptomic profiling has identified numerous genes associated with disease progression, 
 translating these findings into robust and interpretable predictive biomarkers remains challenging. 
@@ -49,22 +49,22 @@ Human whole-blood transcriptomic dataset
 Active TB, latent TB, and healthy controls
 Platform: Illumina HumanHT-12 v3.0
 
-##External Validation Dataset:
+## External Validation Dataset:
 GSE25534
 
 Independent human transcriptomic dataset
 Used for external validation of discovered biomarkers
 
-##Methodology
+## Methodology
 
-##Data Processing
+## Data Processing
 - Quality control
 - Probe annotation and gene mapping
 - Gene-level feature aggregation
 - Missing value handling
 - Feature standardization
 
-##Machine Learning Models
+## Machine Learning Models
 - Logistic Regression
 - Random Forest
 - Support Vector Machine
@@ -85,7 +85,7 @@ Used for external validation of discovered biomarkers
 - ROC analysis
 - External dataset validation
 
-##Expected Deliverables
+## Expected Deliverables
 - Reproducible analysis pipeline
 - Machine learning benchmark comparison
 - Interpretable biomarker panel
