@@ -2,7 +2,7 @@
 
 ## Project Title
 
-Biomedical Machine Learning for Tuberculosis Biomarker Discovery Using Human Transcriptomic Data
+Biomedical Machine Learning for Tuberculosis Biomarker Discovery Using Human Transcriptomic Datasets
 
 ## Background
 
