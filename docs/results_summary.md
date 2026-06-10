@@ -17,6 +17,10 @@
 - SVM achieved the highest cross-validation performance (Mean CV AUC = 0.955).
 - XGBoost achieved the highest test ROC-AUC (0.923).
 - Multiple models independently identified overlapping biomarker candidates, supporting biological robustness.
+### Associated Figures
+
+- [Figure 1: ROC Curves](../results/figures/Figure_1_ROC_Curves.png)
+- [Figure 2: Cross-Validation Comparison](../results/figures/Figure_2_CrossValidationComparison.png)
 
 ## Biomarker Candidate Identification
 
@@ -82,11 +86,14 @@ Candidate biomarkers were assessed using machine learning support, SHAP explaina
 ### Key Observation
 
 The robustness framework later used in the manuscript emerged directly from these analyses. Biomarkers such as STAT1, PARP14, NSMAF, CPN2, DOC2B, and F7 demonstrated consistent support across feature selection, model explainability, and biological interpretation, whereas KNSTRN, RNA28S5, and PDE4DIP remained primarily statistical candidates with limited biological evidence.
+### Associated Figures
+
+- [Figure 3: SHAP Summary Plot](../results/figures/Figure_3_SHAP_Summary.png)
+- [Figure 4: SHAP Feature Importance](../results/figures/Figure_4_SHAP_Barplot.png)
 
 ## Biological Interpretation
 
-Summary of pathway enrichment, interferon signaling, inflammatory cytokine responses, and immune regulatory mechanisms identified during biomarker interpretation.
-
+Detailed pathway enrichment, interferon signaling, inflammatory cytokine responses, and systems-immunology findings will be added in a future repository update.
 (To be expanded in a future update.)
 
 ## External Validation
