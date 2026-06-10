@@ -4,8 +4,6 @@
 
 This section summarizes the machine learning results generated during tuberculosis biomarker discovery.
 
-## Tables
-
 ## Baseline Machine Learning Performance
 
 | Model | Accuracy | Precision | Recall | ROC-AUC | Mean CV AUC |
@@ -35,6 +33,4 @@ Summary of consensus biomarker candidates identified across Logistic Regression,
 
 ## External Validation
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
-## Models
 
-See the `results/models` directory.
