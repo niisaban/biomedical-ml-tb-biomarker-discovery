@@ -75,7 +75,10 @@ Candidate biomarkers were assessed using machine learning support, SHAP explaina
 The robustness framework later used in the manuscript emerged directly from these analyses. Biomarkers such as STAT1, PARP14, NSMAF, CPN2, DOC2B, and F7 demonstrated consistent support across feature selection, model explainability, and biological interpretation, whereas KNSTRN, RNA28S5, and PDE4DIP remained primarily statistical candidates with limited biological evidence.
 
 ## Biological Interpretation
-[Table 2 summary]
+
+Summary of pathway enrichment, interferon signaling, inflammatory cytokine responses, and systems-level immune mechanisms identified during biomarker interpretation.
+
+(To be expanded.)
 
 ## External Validation
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
