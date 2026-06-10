@@ -22,10 +22,57 @@ This section summarizes the major findings from the tuberculosis biomarker disco
 - Multiple models independently identified overlapping biomarker candidates, supporting biological robustness.
 
 ## Biomarker Candidate Identification
-Summary of consensus biomarker candidates identified across Logistic Regression, Random Forest, SVM, and XGBoost models. Candidate genes were grouped into Tier 1, Tier 2, and Tier 3 categories based on multi-model support.
+
+Consensus biomarker candidates were identified through feature selection across multiple machine learning models. Genes were organized into Tier 1 and Tier 2 panels based on statistical support and biological relevance.
+
+### Tier 1 – Multi-Model Consensus Biomarkers
+
+| Gene Symbol | Model Support Count | Tier |
+|-------------|--------------------|------|
+| CLEC4GP1 | 2 | Tier 1 |
+| CPN2 | 2 | Tier 1 |
+| DOC2B | 2 | Tier 1 |
+| F7 | 2 | Tier 1 |
+| KNSTRN | 2 | Tier 1 |
+| PDE4DIP | 2 | Tier 1 |
+| RNA28S5 | 2 | Tier 1 |
+
+### Tier 2 – Biology-Driven Immune Biomarkers
+
+| Gene Symbol | Biological Role |
+|-------------|-----------------|
+| GBP1P1 | Interferon-stimulated response |
+| NSMAF | TNF / immune stress signaling |
+| OSM | Inflammatory cytokine signaling |
+| PARP14 | Immune regulation / STAT signaling |
+| STAT1 | Interferon signaling |
+
+### Combined Reduced Panel
+
+The final reduced biomarker panel combined Tier 1 and Tier 2 genes, resulting in a 12-gene candidate signature for downstream evaluation.
 
 ## Biomarker Robustness Assessment
-[Table 3 from manuscript]
+
+Candidate biomarkers were assessed using machine learning support, SHAP explainability analysis, pathway enrichment, and biological interpretation.
+
+| Gene | Tier | Assessment |
+|------|------|------------|
+| STAT1 | Tier 2 | High |
+| PARP14 | Tier 2 | High |
+| NSMAF | Tier 2 | High |
+| GBP1P1 | Tier 2 | High |
+| OSM | Tier 2 | Moderate–High |
+| CPN2 | Tier 1 | Moderate |
+| F7 | Tier 1 | Moderate |
+| CLEC4GP1 | Tier 1 | Moderate |
+| DOC2B | Tier 1 | Moderate |
+| PDE4DIP | Tier 1 | Low–Moderate |
+| KNSTRN | Tier 1 | Low |
+| RNA28S5 | Tier 1 | Low |
+
+### Key Observation
+
+The robustness framework later used in the manuscript emerged directly from these analyses. Biomarkers such as STAT1, PARP14, NSMAF, CPN2, DOC2B, and F7 demonstrated consistent support across feature selection, model explainability, and biological interpretation, whereas KNSTRN, RNA28S5, and PDE4DIP remained primarily statistical candidates with limited biological evidence.
 
 ## Biological Interpretation
 [Table 2 summary]
