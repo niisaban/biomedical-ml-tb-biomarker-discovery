@@ -1,8 +1,7 @@
 # Results Summary
 
 ## Overview
-
-This section summarizes the machine learning results generated during tuberculosis biomarker discovery.
+This section summarizes the major findings from the tuberculosis biomarker discovery workflow, including machine learning model performance, biomarker prioritization, robustness assessment, biological interpretation, and independent external validation.
 
 ## Baseline Machine Learning Performance
 
