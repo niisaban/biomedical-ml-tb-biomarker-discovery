@@ -1,8 +1,5 @@
 # Results Summary
 
-## Overview
-This section summarizes the major findings from the tuberculosis biomarker discovery workflow, including machine learning model performance, biomarker prioritization, robustness assessment, biological interpretation, and independent external validation.
-
 ## Baseline Machine Learning Performance
 
 | Model | Accuracy | Precision | Recall | ROC-AUC | Mean CV AUC |
@@ -49,7 +46,19 @@ Consensus biomarker candidates were identified through feature selection across 
 
 ### Combined Reduced Panel
 
-The final reduced biomarker panel combined Tier 1 and Tier 2 genes, resulting in a 12-gene candidate signature for downstream evaluation.
+The final reduced biomarker panel combined Tier 1 consensus biomarkers with Tier 2 biology-driven immune biomarkers, resulting in a 12-gene candidate signature for downstream evaluation.
+
+| Tier 1 | Tier 2 |
+|---------|---------|
+| CLEC4GP1 | GBP1P1 |
+| CPN2 | NSMAF |
+| DOC2B | OSM |
+| F7 | PARP14 |
+| KNSTRN | STAT1 |
+| PDE4DIP | |
+| RNA28S5 | |
+
+**Total genes:** 12
 
 ## Biomarker Robustness Assessment
 
@@ -76,9 +85,9 @@ The robustness framework later used in the manuscript emerged directly from thes
 
 ## Biological Interpretation
 
-Summary of pathway enrichment, interferon signaling, inflammatory cytokine responses, and systems-level immune mechanisms identified during biomarker interpretation.
+Summary of pathway enrichment, interferon signaling, inflammatory cytokine responses, and immune regulatory mechanisms identified during biomarker interpretation.
 
-(To be expanded.)
+(To be expanded in a future update.)
 
 ## External Validation
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
