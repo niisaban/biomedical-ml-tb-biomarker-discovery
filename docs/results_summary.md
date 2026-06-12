@@ -17,7 +17,6 @@
 - SVM achieved the highest cross-validation performance (Mean CV AUC = 0.955).
 - XGBoost achieved the highest test ROC-AUC (0.923).
 - Multiple models independently identified overlapping biomarker candidates, supporting biological robustness.
-### Associated Figures
 
 ### Associated Figures
 
@@ -97,7 +96,6 @@ Candidate biomarkers were assessed using machine learning support, SHAP explaina
 ### Key Observation
 
 The robustness framework later used in the manuscript emerged directly from these analyses. Biomarkers such as STAT1, PARP14, NSMAF, CPN2, DOC2B, and F7 demonstrated consistent support across feature selection, model explainability, and biological interpretation, whereas KNSTRN, RNA28S5, and PDE4DIP remained primarily statistical candidates with limited biological evidence.
-### Associated Figures
 
 ### Associated Figures
 
