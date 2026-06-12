@@ -148,12 +148,17 @@ The convergence of statistical evidence and biological plausibility strengthens 
 
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
 
-The validation workflow included:
+### External Validation Workflow Status
 
-- Feature alignment between the discovery dataset (GSE19491) and external validation dataset (GSE25534)
-- Verification of biomarker availability across platforms
-- Assessment of panel reproducibility in an independent cohort
-- Evaluation of model transportability beyond the training dataset
+| Validation Component | Status | Description |
+|---------------------|----------|-------------|
+| External Dataset Selection | Completed | GSE25534 selected as independent validation cohort |
+| Label Generation | Completed | Phenotype labels generated and verified |
+| External Feature Panel Creation | Completed | GSE25534 external biomarker panel generated |
+| Feature Alignment | Completed | Gene features aligned between GSE19491 and GSE25534 |
+| Platform Compatibility Check | Completed | Cross-dataset feature availability verified |
+| External Validation Modeling | Pending Reconstruction | Notebook reconstruction required following power interruption |
+| External Performance Metrics | Pending Reconstruction | AUC, accuracy, precision, and recall metrics not yet recovered |
+| Model Generalizability Assessment | Pending Reconstruction | Will be recomputed during validation workflow reconstruction |
 
-Detailed validation metrics and cohort-level performance results will be added following reconstruction of the external validation workflow notebooks.
-
+The external validation workflow utilized GSE25534 as an independent cohort to assess biomarker reproducibility and cross-dataset generalizability. Feature alignment and compatibility checks were successfully completed, confirming availability of candidate biomarkers across datasets. Final model validation metrics were generated prior to a power interruption that resulted in notebook loss. Reconstruction of the validation workflow is planned to restore quantitative performance estimates and complete the generalizability assessment.
