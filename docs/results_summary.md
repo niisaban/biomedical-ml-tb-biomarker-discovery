@@ -19,8 +19,19 @@
 - Multiple models independently identified overlapping biomarker candidates, supporting biological robustness.
 ### Associated Figures
 
-- [Figure 1: ROC Curves](../results/figures/Figure_1_ROC_Curves.png)
-- [Figure 2: Cross-Validation Comparison](../results/figures/Figure_2_CrossValidationComparison.png)
+### Associated Figures
+
+#### Figure 1. ROC Curve Comparison
+
+![ROC Curve Comparison](../results/figures/Figure_1_ROC_Curves.png)
+
+*Comparison of Random Forest, Logistic Regression, and SVM ROC performance for Active TB versus Healthy Controls.*
+
+#### Figure 2. Cross-Validation Comparison
+
+![Cross Validation Comparison](../results/figures/Figure_2_CrossValidationComparison.png)
+
+*Mean cross-validation AUC comparison across Random Forest, Logistic Regression, and SVM models.*
 
 ## Biomarker Candidate Identification
 
@@ -88,8 +99,19 @@ Candidate biomarkers were assessed using machine learning support, SHAP explaina
 The robustness framework later used in the manuscript emerged directly from these analyses. Biomarkers such as STAT1, PARP14, NSMAF, CPN2, DOC2B, and F7 demonstrated consistent support across feature selection, model explainability, and biological interpretation, whereas KNSTRN, RNA28S5, and PDE4DIP remained primarily statistical candidates with limited biological evidence.
 ### Associated Figures
 
-- [Figure 3: SHAP Summary Plot](../results/figures/Figure_3_SHAP_Summary.png)
-- [Figure 4: SHAP Feature Importance](../results/figures/Figure_4_SHAP_Barplot.png)
+### Associated Figures
+
+#### Figure 3. SHAP Summary Plot
+
+![SHAP Summary Plot](../results/figures/Figure_3_SHAP_Summary.png)
+
+*SHAP summary plot showing gene-level contributions to Active TB versus Healthy Control classification. Positive SHAP values increase prediction toward Active TB, whereas negative values contribute toward Healthy classification.*
+
+#### Figure 4. SHAP Feature Importance
+
+![SHAP Feature Importance](../results/figures/Figure_4_SHAP_Barplot.png)
+
+*Top gene-level biomarkers ranked by mean absolute SHAP value. Higher values indicate greater contribution to model prediction and biomarker prioritization.*
 
 ## Biological Interpretation
 
