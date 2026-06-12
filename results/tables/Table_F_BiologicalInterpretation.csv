@@ -1,14 +1,13 @@
-| Biomarker | Tier   | Functional Category                | Biological Role                                                  |
-| --------- | ------ | ---------------------------------- | ---------------------------------------------------------------- |
-| STAT1     | Tier 2 | Interferon Signaling               | Master regulator of interferon-responsive transcription          |
-| GBP1P1    | Tier 2 | Host Defense / Interferon Response | Interferon-stimulated antimicrobial response                     |
-| PARP14    | Tier 2 | Immune Regulation                  | STAT-mediated immune signaling and regulation                    |
-| NSMAF     | Tier 2 | TNF Signaling                      | Mediator of inflammatory signaling pathways                      |
-| OSM       | Tier 2 | Cytokine Signaling                 | Leukocyte recruitment and immune modulation                      |
-| CPN2      | Tier 1 | Immune Response                    | Consensus biomarker identified across multiple models            |
-| DOC2B     | Tier 1 | Candidate Biomarker                | Multi-model consensus feature requiring further characterization |
-| F7        | Tier 1 | Inflammatory / Coagulation Biology | Potential link to host inflammatory processes                    |
-| CLEC4GP1  | Tier 1 | Immune Recognition                 | C-type lectin family–associated immune functions                 |
-| PDE4DIP   | Tier 1 | Signaling Regulation               | Statistical biomarker with limited biological evidence           |
-| KNSTRN    | Tier 1 | Cellular Processes                 | Statistical biomarker with limited biological evidence           |
-| RNA28S5   | Tier 1 | Non-coding/Ribosomal Feature       | Statistical biomarker with limited biological evidence           |
+Biomarker,Tier,Functional Category,Biological Role
+STAT1,Tier 2,Interferon Signaling,Master regulator of interferon-responsive transcription
+GBP1P1,Tier 2,Host Defense / Interferon Response,Interferon-stimulated antimicrobial response
+PARP14,Tier 2,Immune Regulation,STAT-mediated immune signaling and regulation
+NSMAF,Tier 2,TNF Signaling,Mediator of inflammatory signaling pathways
+OSM,Tier 2,Cytokine Signaling,Leukocyte recruitment and immune modulation
+CPN2,Tier 1,Immune Response,Consensus biomarker identified across multiple models
+DOC2B,Tier 1,Candidate Biomarker,Multi-model consensus feature requiring further characterization
+F7,Tier 1,Inflammatory / Coagulation Biology,Potential link to host inflammatory processes
+CLEC4GP1,Tier 1,Immune Recognition,C-type lectin family-associated immune functions
+PDE4DIP,Tier 1,Signaling Regulation,Statistical biomarker with limited biological evidence
+KNSTRN,Tier 1,Cellular Processes,Statistical biomarker with limited biological evidence
+RNA28S5,Tier 1,Non-coding/Ribosomal Feature,Statistical biomarker with limited biological evidence
