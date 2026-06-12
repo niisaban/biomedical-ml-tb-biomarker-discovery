@@ -113,8 +113,36 @@ The robustness framework later used in the manuscript emerged directly from thes
 
 ## Biological Interpretation
 
-Detailed pathway enrichment, interferon signaling, inflammatory cytokine responses, and systems-immunology findings will be added in a future repository update.
-(To be expanded in a future update.)
+Biological interpretation of the candidate biomarkers revealed strong enrichment for interferon-mediated immune responses, inflammatory cytokine signaling, and host-defense mechanisms that are well established in tuberculosis pathogenesis.
+
+### Interferon Signaling
+
+Several high-priority biomarkers identified through feature selection and SHAP analysis participate in interferon-driven immune responses. STAT1, PARP14, GBP1P1, and related genes were consistently highlighted across multiple analyses, supporting the importance of interferon signaling during active tuberculosis.
+
+STAT1 is a central regulator of interferon-responsive transcriptional programs and emerged as one of the most biologically robust biomarkers identified in the study. PARP14 has been associated with immune regulation and STAT-mediated signaling pathways, whereas GBP1P1 reflects activation of antimicrobial interferon-stimulated responses.
+
+### Inflammatory Cytokine Responses
+
+NSMAF and OSM were prioritized because of their involvement in inflammatory signaling networks. NSMAF participates in TNF-associated signaling pathways that contribute to host immune activation during infection. OSM is an inflammatory cytokine involved in leukocyte recruitment, tissue remodeling, and immune regulation.
+
+The prominence of these genes supports the hypothesis that active tuberculosis is characterized by coordinated inflammatory activation alongside interferon-mediated responses.
+
+### Antigen Processing and Host Defense
+
+SHAP analysis additionally highlighted genes involved in antigen presentation, immune surveillance, and host-defense mechanisms. Several genes identified among the top model contributors are associated with pathways that facilitate recognition and control of intracellular pathogens.
+
+These findings are consistent with known immune responses required for containment of Mycobacterium tuberculosis infection.
+
+### Systems-Immunology Perspective
+
+Integration of machine learning feature selection, model explainability, and biological interpretation revealed a coherent systems-level signature characterized by:
+
+- Interferon signaling activation
+- TNF-associated inflammatory responses
+- Cytokine-mediated immune regulation
+- Antimicrobial host-defense mechanisms
+
+The convergence of statistical evidence and biological plausibility strengthens confidence that the identified biomarkers reflect meaningful tuberculosis-associated immune processes rather than model-specific artifacts.
 
 ## External Validation
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
