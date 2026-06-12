@@ -145,5 +145,15 @@ Integration of machine learning feature selection, model explainability, and bio
 The convergence of statistical evidence and biological plausibility strengthens confidence that the identified biomarkers reflect meaningful tuberculosis-associated immune processes rather than model-specific artifacts.
 
 ## External Validation
+
 Independent external validation was performed using GSE25534 to evaluate biomarker reproducibility, feature alignment, and model generalizability across datasets.
+
+The validation workflow included:
+
+- Feature alignment between the discovery dataset (GSE19491) and external validation dataset (GSE25534)
+- Verification of biomarker availability across platforms
+- Assessment of panel reproducibility in an independent cohort
+- Evaluation of model transportability beyond the training dataset
+
+Detailed validation metrics and cohort-level performance results will be added following reconstruction of the external validation workflow notebooks.
 
