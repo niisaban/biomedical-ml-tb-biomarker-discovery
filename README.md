@@ -67,30 +67,9 @@ Used as an independent cohort for feature alignment, biomarker reproducibility a
 
 ## Machine Learning Workflow
 
-*Workflow figure to be inserted here.*
+![Machine Learning Workflow](results/figures/Figure_0_ML_Workflow.png)
 
-```text
-GSE19491
-   ↓
-Data Preprocessing
-   ↓
-Probe-to-Gene Mapping
-   ↓
-RF / LR / SVM / XGBoost
-   ↓
-SHAP Explainability
-   ↓
-Consensus Biomarker Selection
-   ↓
-Tier 1 + Tier 2 Panels
-   ↓
-Biological Interpretation
-   ↓
-External Validation (GSE25534)
-```
-
----
-
+*Figure 0. End-to-end machine learning workflow used for tuberculosis biomarker discovery and biological interpretation.*
 ## Key Results
 
 ### Baseline Model Performance
