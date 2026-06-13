@@ -193,6 +193,16 @@ The tables below provide direct access to the primary quantitative outputs of th
 | [Table E – SHAP Top Features](results/tables/Table_E_SHAP_TopFeatures.csv)                    | Highest-ranked biomarkers identified through SHAP explainability analysis.                   |
 | [Table F – Biological Interpretation](results/tables/Table_F_BiologicalInterpretation.csv)    | Functional categorization and biological roles of prioritized biomarker candidates.          |
 
+## Key Repository Documents
+
+The following documents provide detailed information about project scope, data sources, workflow design, and consolidated study findings.
+
+| Document | Description |
+|-----------|-------------|
+| [Project Scope](docs/project_scope.md) | Project objectives, research questions, analytical strategy, and study scope. |
+| [Data Sources](docs/data_sources.md) | Description of discovery and validation datasets, platform information, and data provenance. |
+| [Workflow Documentation](docs/workflow.md) | End-to-end machine learning workflow including preprocessing, modeling, explainability, and validation steps. |
+| [Results Summary](docs/results_summary.md) | Consolidated summary of model performance, biomarker prioritization, biological interpretation, and validation activities. |
 
 ## Repository Structure
 
