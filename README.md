@@ -143,15 +143,19 @@ SHAP analysis identified multiple immune-associated genes among the strongest co
 ### ROC Curve Comparison
 
 ![ROC Curve Comparison](results/figures/Figure_1_ROC_Curves.png)
+*Figure 1. Receiver Operating Characteristic (ROC) curve comparison of Random Forest (RF), Logistic Regression (LR), and Support Vector Machine (SVM) models for Active TB versus Healthy Control classification. All models demonstrated strong discriminatory performance, with SVM achieving the highest ROC-AUC.*
 
 ### SHAP Summary Plot
 
 ![SHAP Summary Plot](results/figures/Figure_3_SHAP_Summary.png)
+*Figure 3. SHAP summary plot showing gene-level contributions to Active TB versus Healthy Control classification. STAT1, GBP1P1, PARP14, NSMAF, and other immune-associated genes contributed strongly to model predictions.*
 
 Additional visualizations are available in:
 
 - results/figures/Figure_2_CV_Comparison.png
+  *Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and generalizability.*
 - results/figures/Figure_4_SHAP_Importance.png
+*Figure 4. SHAP feature importance ranking of candidate biomarkers. Genes with larger mean absolute SHAP values exerted greater influence on model predictions and were prioritized for downstream biological interpretation.*
 
 ## External Validation
 
