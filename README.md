@@ -140,14 +140,18 @@ Model interpretability was assessed using SHAP (SHapley Additive exPlanations).
 
 SHAP analysis identified multiple immune-associated genes among the strongest contributors to model predictions and provided quantitative evidence supporting biomarker prioritization.
 
-Supporting figures include:
+### ROC Curve Comparison
 
-* ROC Curve Comparison
-* Cross-Validation Comparison
-* SHAP Summary Plot
-* SHAP Feature Importance Plot
+![ROC Curve Comparison](results/figures/Figure_1_ROC_Comparison.png)
 
----
+### SHAP Summary Plot
+
+![SHAP Summary Plot](results/figures/Figure_3_SHAP_Summary.png)
+
+Additional visualizations are available in:
+
+- results/figures/Figure_2_CV_Comparison.png
+- results/figures/Figure_4_SHAP_Importance.png
 
 ## External Validation
 
