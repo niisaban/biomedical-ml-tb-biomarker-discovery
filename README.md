@@ -142,7 +142,7 @@ SHAP analysis identified multiple immune-associated genes among the strongest co
 
 ### ROC Curve Comparison
 
-![ROC Curve Comparison](results/figures/Figure_1_ROC_Comparison.png)
+![ROC Curve Comparison](results/figures/Figure_1_ROC_Curves.png)
 
 ### SHAP Summary Plot
 
