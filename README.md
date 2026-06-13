@@ -152,7 +152,7 @@ SHAP analysis identified multiple immune-associated genes among the strongest co
 
 Additional visualizations are available in:
 
-- [Figure 2: Cross-Validation Comparison](results/figures/Figure_2_CrossValidation_Comparison.png)
+- [Figure 2: Cross-Validation Comparison](results/figures/Figure_2_CrossValidationComparison.png)
 
 *Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and generalizability.*
 
