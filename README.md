@@ -186,7 +186,7 @@ The tables below provide direct access to the primary quantitative outputs of th
 ...
 | Table                                                                                         | Description                                                                                  |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Table A – Baseline Model Performance](results/tables/Table_A_Phase1_BaselinePerformance.csv) | Classification performance metrics for Logistic Regression, Random Forest, SVM, and XGBoost. |
+| [Table A – Baseline Model Performance](results/tables/Table_A_Phase1_BaselinePerformance.jpg) | Classification performance metrics for Logistic Regression, Random Forest, SVM, and XGBoost. |
 | [Table B – Consensus Biomarker Panels](results/tables/Table_B_Phase1_TierPanels.csv)          | Tier 1 and Tier 2 biomarker candidates identified through multi-model consensus.             |
 | [Table C – Robustness Assessment](results/tables/Table_C_Phase1_RobustnessAssessment.csv)     | Cross-model support and robustness evaluation of candidate biomarkers.                       |
 | [Table D – External Validation Workflow](results/tables/Table_D_ExternalValidation.csv)       | Status of external validation activities using GSE25534.                                     |
