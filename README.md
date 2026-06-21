@@ -186,12 +186,12 @@ The tables below provide direct access to the primary quantitative outputs of th
 ...
 | Table                                                                                         | Description                                                                                  |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Table A – Baseline Model Performance](results/tables/Table_A_Phase1_BaselinePerformance.jpg) | Classification performance metrics for Logistic Regression, Random Forest, SVM, and XGBoost. |
-| [Table B – Consensus Biomarker Panels](results/tables/Table_B_Phase1_TierPanels.csv)          | Tier 1 and Tier 2 biomarker candidates identified through multi-model consensus.             |
-| [Table C – Robustness Assessment](results/tables/Table_C_Phase1_RobustnessAssessment.csv)     | Cross-model support and robustness evaluation of candidate biomarkers.                       |
-| [Table D – External Validation Workflow](results/tables/Table_D_ExternalValidation.csv)       | Status of external validation activities using GSE25534.                                     |
-| [Table E – SHAP Top Features](results/tables/Table_E_SHAP_TopFeatures.csv)                    | Highest-ranked biomarkers identified through SHAP explainability analysis.                   |
-| [Table F – Biological Interpretation](results/tables/Table_F_BiologicalInterpretation.csv)    | Functional categorization and biological roles of prioritized biomarker candidates.          |
+| [Table A – Baseline Model Performance](results/tables/Table_A_Phase_1_BaselinePerformance.jpg) | Classification performance metrics for Logistic Regression, Random Forest, SVM, and XGBoost. |
+| [Table B – Consensus Biomarker Panels](results/tables/Table_B_Phase_1_TierPanels.jpg)          | Tier 1 and Tier 2 biomarker candidates identified through multi-model consensus.             |
+| [Table C – Robustness Assessment](results/tables/Table_C_Phase_1_RobustnessAssessment.jpg)     | Cross-model support and robustness evaluation of candidate biomarkers.                       |
+| [Table D – External Validation Workflow](results/tables/Table_D_ExternalValidation.jpg)       | Status of external validation activities using GSE25534.                                     |
+| [Table E – SHAP Top Features](results/tables/Table_E_SHAP_TopFeatures.jpg)                    | Highest-ranked biomarkers identified through SHAP explainability analysis.                   |
+| [Table F – Biological Interpretation](results/tables/Table_F_BiologicalInterpretation.jpg)    | Functional categorization and biological roles of prioritized biomarker candidates.          |
 
 ## Key Repository Documents
 
