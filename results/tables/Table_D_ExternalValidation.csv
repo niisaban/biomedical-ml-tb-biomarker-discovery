@@ -1,9 +1,0 @@
-Validation Component,Status,Description
-External Dataset Selection,Completed,GSE25534 selected as independent validation cohort
-Label Generation,Completed,Phenotype labels generated and verified
-External Feature Panel Creation,Completed,GSE25534 external biomarker panel generated
-Feature Alignment,Completed,Gene features aligned between GSE19491 and GSE25534
-Platform Compatibility Check,Completed,Cross-dataset feature availability verified
-External Validation Modeling,Pending Reconstruction,Notebook reconstruction required following power interruption
-External Performance Metrics,Pending Reconstruction,AUC accuracy precision recall metrics not yet recovered
-Model Generalizability Assessment,Pending Reconstruction,Will be recomputed during validation workflow reconstruction
