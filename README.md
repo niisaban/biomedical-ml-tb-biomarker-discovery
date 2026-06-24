@@ -101,6 +101,21 @@ The dashboard provides an accessible summary of model performance, biomarker sel
 
 ---
 
+## Scientific Poster
+
+A conference-style scientific poster summarizing the project's objectives, methodology, machine learning workflow, biomarker discovery, and biological interpretation is available below.
+
+### Poster Preview
+
+![TB Biomarker Discovery Poster](reports/TB_Biomarker_Discovery_Poster.jpg)
+
+**Download high-resolution PDF:**
+
+[TB Biomarker Discovery Poster (PDF)](reports/TB_Biomarker_Discovery_Poster.pdf)
+
+The poster provides a concise visual summary of the complete biomarker discovery pipeline and complements the detailed documentation contained throughout this repository.
+
+
 ## Consensus Biomarker Panel
 
 ### Tier 2 – Biologically Prioritized Biomarkers
