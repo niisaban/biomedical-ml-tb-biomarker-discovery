@@ -243,6 +243,21 @@ results/
 src/
 ```
 
+## Future Work
+
+This repository documents the Phase 1 machine learning workflow for tuberculosis biomarker discovery and serves as the foundation for ongoing model refinement and biological validation.
+
+Planned future developments include:
+
+* Reconstruct archived evaluation notebooks following data loss caused by a power interruption, restoring missing SVM and XGBoost performance metrics.
+* Complete external validation using the independent GSE25534 transcriptomic cohort and report quantitative validation metrics.
+* Evaluate additional publicly available tuberculosis transcriptomic datasets to assess model generalizability.
+* Expand pathway enrichment, gene network analysis, and systems-level interpretation of prioritized biomarkers.
+* Investigate reduced biomarker panels suitable for translational and clinically deployable diagnostic assays.
+* Integrate subsequent systems-immunology analyses developed from this project into future repository releases.
+
+These activities will further strengthen the reproducibility, robustness, and translational relevance of the identified tuberculosis biomarker candidates.
+
 ---
 
 ## Future Work
@@ -258,6 +273,19 @@ Planned extensions include:
 * Advanced model comparison and robustness assessment
 
 ---
+
+## Citation
+
+If you use this repository, workflow, figures, tables, or other project materials in your research or educational work, please cite:
+
+**Hammond AS.** *Biomedical Machine Learning for Tuberculosis Biomarker Discovery Using Human Transcriptomic Data.* GitHub Repository, 2026.
+
+Please also cite the original Gene Expression Omnibus (GEO) datasets and their associated publications used in this study.
+
+## License
+
+This project is distributed under the MIT License. See the `LICENSE` file for details.
+
 
 ## Author
 
