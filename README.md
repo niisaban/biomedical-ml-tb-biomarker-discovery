@@ -65,6 +65,16 @@ Used as an independent cohort for feature alignment, biomarker reproducibility a
 
 ---
 
+## Interactive Dashboard
+
+An interactive Tableau dashboard summarizing machine learning performance, biomarker prioritization, explainability analyses, and project outcomes is available through Tableau Public.
+
+**View Dashboard:**
+[Biomedical ML for TB Biomarker Discovery Dashboard](https://public.tableau.com/app/profile/abdulrahman.hammond/viz/ML-TB_project_dashboard_ver3_ash22Jun2026/Dashboard1)
+
+The dashboard provides an accessible summary of model performance, biomarker selection, explainability results, and external validation activities. It complements the repository by allowing users to interactively explore key findings and project outputs.
+
+
 ## Machine Learning Workflow
 
 ![Machine Learning Workflow](results/figures/Figure_0_ML_Workflow.png)
