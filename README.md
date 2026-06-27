@@ -4,6 +4,12 @@
 ![Tableau](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+<p align="center">
+  <img src="assets/images/hero_banner_tb_biomarker_discovery.png"
+       alt="Biomedical ML for Tuberculosis Biomarker Discovery"
+       width="100%">
+</p>
+
 **Repository Series:** Companion Research Repository 01  
 **Project Title:** Biomedical ML for Tuberculosis Biomarker Discovery  
 **Role:** Public companion repository providing the manuscript, interactive dashboard, scientific poster, figures, tables, and reproducibility resources for the Biomedical ML TB biomarker discovery project.
