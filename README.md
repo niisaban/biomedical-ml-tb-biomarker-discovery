@@ -5,8 +5,8 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 **Repository Series:** Companion Research Repository 01  
-**Project:** Tuberculosis Biomarker Discovery  
-**Role:** Public companion repository for the ML-TB manuscript, interactive dashboard, poster, figures, tables, and reproducibility materials.
+**Project Title:** Biomedical ML for Tuberculosis Biomarker Discovery  
+**Role:** Public companion repository providing the manuscript, interactive dashboard, scientific poster, figures, tables, and reproducibility resources for the Biomedical ML TB biomarker discovery project.
 
 ## Project Overview
 
