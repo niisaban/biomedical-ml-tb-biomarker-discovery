@@ -3,6 +3,11 @@
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Biomarker%20Discovery-green)
 ![Tableau](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+**Repository Series:** Companion Research Repository 01  
+**Project:** Tuberculosis Biomarker Discovery  
+**Role:** Public companion repository for the ML-TB manuscript, interactive dashboard, poster, figures, tables, and reproducibility materials.
+
 ## Project Overview
 
 This project applies machine learning and explainable artificial intelligence (XAI) techniques to identify transcriptional biomarkers associated with active tuberculosis (TB) in human blood gene expression datasets. The goal is to discover biologically meaningful gene signatures capable of distinguishing Active TB from Healthy Controls while maintaining model interpretability and supporting downstream biological investigation.
