@@ -1,24 +1,19 @@
-# Biomedical ML for Tuberculosis Biomarker Discovery
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Biomarker%20Discovery-green)
-![Tableau](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 <p align="center">
-  <img src="assets/images/hero_banner_tb_biomarker_discovery.png"
+  <img src="assets/images/Biomedical_ML_for TB_Discovery_v4.png"
        alt="Biomedical ML for Tuberculosis Biomarker Discovery"
        width="100%">
 </p>
 
-**Repository Series:** Companion Research Repository 01  
-**Project Title:** Biomedical ML for Tuberculosis Biomarker Discovery  
-**Role:** Public companion repository providing the manuscript, interactive dashboard, scientific poster, figures, tables, and reproducibility resources for the Biomedical ML TB biomarker discovery project.
 
 ## Project Overview
 
-This project applies machine learning and explainable artificial intelligence (XAI) techniques to identify transcriptional biomarkers associated with active tuberculosis (TB) in human blood gene expression datasets. The goal is to discover biologically meaningful gene signatures capable of distinguishing Active TB from Healthy Controls while maintaining model interpretability and supporting downstream biological investigation.
+This repository accompanies our research on machine learning–driven discovery of blood-based transcriptional biomarkers for tuberculosis (TB) using publicly available human gene expression datasets.
 
-The study combines multiple machine learning algorithms, SHAP explainability analysis, consensus feature selection, biological interpretation, and external validation planning to create a robust biomarker discovery workflow.
+The project integrates Random Forest, Logistic Regression, Support Vector Machine, XGBoost, SHAP explainability, consensus biomarker prioritization, biological interpretation, and external validation planning into a single reproducible workflow.
+
+Beyond predictive performance, the study emphasizes biological interpretability, identifying host-response signatures that are statistically robust, biologically meaningful, and potentially translatable into future diagnostic applications.
+
+This repository provides the complete collection of project resources, including the manuscript, scientific poster, interactive Tableau dashboard, workflow documentation, figures, tables, and reproducibility materials.
 
 ---
 
