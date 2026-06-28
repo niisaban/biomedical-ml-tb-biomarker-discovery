@@ -40,13 +40,49 @@ Together, the manuscript and this repository provide a comprehensive, transparen
 
 | Resource | Description | Location |
 |----------|-------------|----------|
-| 📄 **Manuscript** | Complete scientific manuscript | `/reports/` |
+| 📄 **Disease** | Complete scientific manuscript | `/reports/` |
 | 📊 **Interactive Dashboard** | Interactive Tableau visualization | Tableau Public |
 | 🖼️ **Scientific Poster** | Conference-style project summary | `/reports/poster/` |
 | 📈 **Figures** | Publication-quality graphics | `/results/figures/` |
 | 📋 **Tables** | Performance metrics and biomarker tables | `/results/tables/` |
 | 🔬 **Workflow** | End-to-end analytical workflow | `/docs/workflow.md` |
 | 📁 **Reproducibility Resources** | Project documentation and supporting materials | Repository root |
+
+## Results at a Glance
+
+| Category | Outcome |
+|----------|-------------|
+| **Manuscript** | Human Tuberculosis (TB). |
+| **Training Dataset** | GEO GSE19491. |
+| **External Validation** | GEO GSE25534. |
+| **Machine Learning Models** | Random Forest, Logistic Regression, Linear SVM, XGBoost.|
+| **Explanability** | SHAP feature importance. |
+| **Feature Selection** | Consensus multi-model biomarker prioritization. |
+| **Biological Context** | Single-cell mapping and systems immunology. |
+| **Deliverables** | Manuscript, dashboard, poster, workflow, reproducibility resources. |
+
+## Performance Table
+
+| Model | ROC-AUC | Mean Cross-Validation AUC |
+|----------|-------------|----------|
+| **Random Forest** | 0.793 |0.921  |
+| **Logistic Regression** | 0.806 |0.943  |
+| **Linear SVM** | 0.840 |0.955  |
+| **XGBoost** | 0.923 |**Pending**  |
+
+Consensus biomarkers were prioritized using agreement across multiple machine learning models together with SHAP explainability, resulting in biologically interpretable candidate signatures for tuberculosis diagnosis.
+
+## Key Contributios
+
+- Integrated four complementary machine learning algorithms for biomarker discovery.
+
+- Prioritized biomarkers using consensus feature selection together with SHAP explainability.
+
+- Combined transcriptomics with systems immunology for biological interpretation.
+
+- Established an external validation framework using an independent GEO cohort.
+
+- Developed a complete companion research repository supporting transparency and reproducibility.
 
 ## Scientific Motivation
 
