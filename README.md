@@ -17,6 +17,37 @@ This repository provides the complete collection of project resources, including
 
 ---
 
+## Companion to the Manuscript
+
+This repository serves as the official public companion to the manuscript:
+
+Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data
+
+The repository extends the manuscript by providing materials that cannot easily be presented within a traditional journal article, including:
+
+* Interactive Tableau dashboard
+* Scientific poster
+* High-resolution workflow diagrams
+* Complete figures
+* Supporting tables
+* Biological interpretation summaries
+* Reproducibility documentation
+* Project evolution and future work
+
+Together, the manuscript and this repository provide a comprehensive, transparent, and reproducible record of the project.
+
+## Project Resources
+
+| Resource | Description | Location |
+|----------|-------------|----------|
+| 📄 **Manuscript** | Complete scientific manuscript | `/reports/` |
+| 📊 **Interactive Dashboard** | Interactive Tableau visualization | Tableau Public |
+| 🖼️ **Scientific Poster** | Conference-style project summary | `/reports/poster/` |
+| 📈 **Figures** | Publication-quality graphics | `/results/figures/` |
+| 📋 **Tables** | Performance metrics and biomarker tables | `/results/tables/` |
+| 🔬 **Workflow** | End-to-end analytical workflow | `/docs/workflow.md` |
+| 📁 **Reproducibility Resources** | Project documentation and supporting materials | Repository root |
+
 ## Scientific Motivation
 
 Tuberculosis remains one of the leading infectious causes of death worldwide. Early and accurate diagnosis is essential for disease control, yet conventional diagnostic approaches may be limited by sensitivity, infrastructure requirements, or turnaround time.
