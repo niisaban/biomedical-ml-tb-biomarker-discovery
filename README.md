@@ -72,7 +72,7 @@ Together, the manuscript and this repository provide a comprehensive, transparen
 
 Consensus biomarkers were prioritized using agreement across multiple machine learning models together with SHAP explainability, resulting in biologically interpretable candidate signatures for tuberculosis diagnosis.
 
-## Key Contributios
+## Key Contributions
 
 - Integrated four complementary machine learning algorithms for biomarker discovery.
 
