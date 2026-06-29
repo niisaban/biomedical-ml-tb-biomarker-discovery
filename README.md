@@ -48,6 +48,24 @@ Together, the manuscript and this repository provide a comprehensive, transparen
 | 🔬 **Workflow** | End-to-end analytical workflow | `/docs/workflow.md` |
 | 📁 **Reproducibility Resources** | Project documentation and supporting materials | Repository root |
 
+## Scientific Motivation
+
+Tuberculosis remains one of the leading infectious causes of death worldwide. Early and accurate diagnosis is essential for disease control, yet conventional diagnostic approaches may be limited by sensitivity, infrastructure requirements, or turnaround time.
+
+Host transcriptomic biomarkers provide an opportunity to identify disease-associated immune signatures directly from patient gene expression profiles. However, many machine learning studies emphasize predictive performance without sufficient biological interpretation or validation.
+
+This project addresses that gap by integrating:
+
+* Machine learning classification
+* Consensus biomarker prioritization
+* SHAP explainability
+* Biological interpretation
+* External validation planning
+
+to identify biomarker candidates that are both statistically robust and biologically meaningful.
+
+---
+
 ## Results at a Glance
 
 | Category | Outcome |
@@ -83,24 +101,6 @@ Consensus biomarkers were prioritized using agreement across multiple machine le
 - Established an external validation framework using an independent GEO cohort.
 
 - Developed a complete companion research repository supporting transparency and reproducibility.
-
-## Scientific Motivation
-
-Tuberculosis remains one of the leading infectious causes of death worldwide. Early and accurate diagnosis is essential for disease control, yet conventional diagnostic approaches may be limited by sensitivity, infrastructure requirements, or turnaround time.
-
-Host transcriptomic biomarkers provide an opportunity to identify disease-associated immune signatures directly from patient gene expression profiles. However, many machine learning studies emphasize predictive performance without sufficient biological interpretation or validation.
-
-This project addresses that gap by integrating:
-
-* Machine learning classification
-* Consensus biomarker prioritization
-* SHAP explainability
-* Biological interpretation
-* External validation planning
-
-to identify biomarker candidates that are both statistically robust and biologically meaningful.
-
----
 
 ## Objectives
 
@@ -240,6 +240,12 @@ The final consensus biomarker panel reflects multiple aspects of the host immune
 Unlike many machine learning studies that focus primarily on classification accuracy, this project emphasizes biological interpretability as an essential component of biomarker discovery. Explainable Artificial Intelligence (XAI) using SHAP was incorporated to identify genes that consistently contributed to model predictions, while consensus feature selection reduced dependence on any single algorithm.
 
 The resulting workflow bridges computational modeling with systems immunology, providing candidate biomarkers that are not only predictive of active tuberculosis but also biologically meaningful and suitable for future experimental validation and translational research.
+
+<p align="center">
+  <img src="assets/images/Biological_Themes_at_a_glance_v3.png"
+       alt="Biological Themes at a glance"
+       width="100%">
+</p>
 
 ## Explainability Analysis
 
