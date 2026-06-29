@@ -220,20 +220,26 @@ The final reduced biomarker panel consisted of 12 candidate genes combining cons
 
 ---
 
-## Biological Insights
+## Biological Significance
+### Why These Biomarkers Matter?
 
-Biological interpretation revealed strong enrichment for:
+Machine learning can identify genes that distinguish disease states with high predictive performance, but clinical translation requires more than statistical accuracy. This project therefore combined machine learning, SHAP explainability, consensus feature selection, and biological interpretation to prioritize biomarkers supported by both computational evidence and established immunological mechanisms.
 
-* Interferon-mediated immune responses
-* TNF-associated inflammatory signaling
-* Cytokine-mediated immune regulation
-* Host-defense and antimicrobial pathways
+The final consensus biomarker panel reflects multiple aspects of the host immune response to Mycobacterium tuberculosis, including interferon signaling, inflammatory regulation, complement activation, and cellular adaptation during active disease. Rather than relying on a single algorithm, biomarkers were selected through agreement across complementary machine learning models, increasing confidence that the identified signatures represent robust biological phenomena rather than model-specific artifacts.
 
-STAT1 emerged as a particularly compelling biomarker due to its central role in interferon-responsive transcriptional programs. Additional candidates including GBP1P1, PARP14, NSMAF, and OSM demonstrated convergence of machine learning support, SHAP importance, and biological plausibility.
+## Biological Interpretation of Representative Biomarkers
+|Biological Theme | Representative Biomarkers | Biological Relevance |
+|----------|-------------|----------|
+| **Interferon Signaling** | STAT1, GBP1P1 |Central mediators of host defense against intracellular pathogens and consistently associated with active tuberculosis.  |
+| **Inflammatory Regulation** | OSM, NSMAF |Participate in cytokine signaling and regulation of inflammatory responses during infection.  |
+| **Complement & Coagulation** | CPN2, F7 |Reflect systemic immune activation and host inflammatory responses accompanying active disease.  |
+| **Cellular Structure & Signaling** | PDE4DIP, KNSTRN |Represent cellular organization, signaling pathways, and host adaptation to infection.  |
+| **Consensus Biomarker Panel** | Tier 1 + Tier 2 genes |Selected through agreement across multiple machine learning algorithms together with SHAP explainability to maximize robustness and biological interpretability.  |
 
-Together, these findings suggest that active tuberculosis is characterized by coordinated activation of interferon and inflammatory signaling pathways that can be detected through host transcriptional signatures.
+### From Prediction to Biological Insight
+Unlike many machine learning studies that focus primarily on classification accuracy, this project emphasizes biological interpretability as an essential component of biomarker discovery. Explainable Artificial Intelligence (XAI) using SHAP was incorporated to identify genes that consistently contributed to model predictions, while consensus feature selection reduced dependence on any single algorithm.
 
----
+The resulting workflow bridges computational modeling with systems immunology, providing candidate biomarkers that are not only predictive of active tuberculosis but also biologically meaningful and suitable for future experimental validation and translational research.
 
 ## Explainability Analysis
 
@@ -260,6 +266,21 @@ Additional visualizations are available in:
 - [Figure 4: SHAP Feature Importance Plot](results/figures/Figure_4_SHAP_Barplot.png)
 
 *Figure 4. SHAP feature importance ranking of candidate biomarkers. Genes with larger mean absolute SHAP values exerted greater influence on model predictions and were prioritized for downstream biological interpretation.*
+
+## Biological Insights
+
+Biological interpretation revealed strong enrichment for:
+
+* Interferon-mediated immune responses
+* TNF-associated inflammatory signaling
+* Cytokine-mediated immune regulation
+* Host-defense and antimicrobial pathways
+
+STAT1 emerged as a particularly compelling biomarker due to its central role in interferon-responsive transcriptional programs. Additional candidates including GBP1P1, PARP14, NSMAF, and OSM demonstrated convergence of machine learning support, SHAP importance, and biological plausibility.
+
+Together, these findings suggest that active tuberculosis is characterized by coordinated activation of interferon and inflammatory signaling pathways that can be detected through host transcriptional signatures.
+
+---
 
 ## External Validation
 
