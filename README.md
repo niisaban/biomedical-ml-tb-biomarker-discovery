@@ -48,6 +48,72 @@ Together, the manuscript and this repository provide a comprehensive, transparen
 | 🔬 **Workflow** | End-to-end analytical workflow | `/docs/workflow.md` |
 | 📁 **Reproducibility Resources** | Project documentation and supporting materials | Repository root |
 
+## Repository Highlights
+
+This repository goes beyond a traditional code repository by serving as a
+comprehensive companion to the manuscript. It integrates computational
+analysis, biological interpretation, interactive visualization, and
+reproducibility resources into a single open-science platform.
+
+### Highlights
+
+- End-to-end machine learning workflow for tuberculosis biomarker discovery.
+- Four complementary machine learning models with comparative evaluation.
+- Consensus biomarker prioritization using multi-model agreement.
+- Explainable AI (SHAP) for interpretable feature importance.
+- Biological interpretation linking biomarkers to immune pathways.
+- Independent external validation framework using GEO GSE25534.
+- Interactive Tableau dashboard for exploratory analysis.
+- Publication-quality figures, workflow diagrams, and scientific poster.
+- Complete reproducibility resources accompanying the manuscript.
+
+## Quick Repository Statistics
+| Repository Metric           | Value                                                                                                 |
+| --------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Disease Focus               | Tuberculosis (TB)                                                                                     |
+| Training Dataset            | GEO GSE19491                                                                                          |
+| External Validation Dataset | GEO GSE25534                                                                                          |
+| Machine Learning Models     | Random Forest, Logistic Regression, Linear SVM, XGBoost                                               |
+| Explainable AI              | SHAP                                                                                                  |
+| Consensus Biomarker Panel   | Tier 1 + Tier 2 candidate genes                                                                       |
+| Biological Themes           | Interferon signaling, inflammation, complement & coagulation, immune regulation & cellular adaptation |
+| Interactive Dashboard       | Tableau Public                                                                                        |
+| Scientific Poster           | Included                                                                                              |
+| Companion Manuscript        | Included                                                                                              |
+| Reproducibility Resources   | Included                                                                                              |
+| Repository License          | MIT                                                                                                   |
+
+## Technology Stack
+| Category         | Technology            |
+| ---------------- | --------------------- |
+| Programming      | Python 3.11           |
+| Machine Learning | Scikit-learn, XGBoost |
+| Explainability   | SHAP                  |
+| Data Source      | GEO                   |
+| Visualization    | Tableau               |
+| Version Control  | GitHub                |
+
+## Reproducibility Checklist
+✓ Public datasets
+
+✓ Version-controlled repository
+
+✓ External validation
+
+✓ Explainable AI
+
+✓ Interactive dashboard
+
+✓ Scientific poster
+
+✓ Companion manuscript
+
+✓ MIT License
+
+✓ Citation information
+
+✓ Future work roadmap
+
 ## Scientific Motivation
 
 Tuberculosis remains one of the leading infectious causes of death worldwide. Early and accurate diagnosis is essential for disease control, yet conventional diagnostic approaches may be limited by sensitivity, infrastructure requirements, or turnaround time.
@@ -66,7 +132,7 @@ to identify biomarker candidates that are both statistically robust and biologic
 
 ---
 
-## Results at a Glance
+## Key Results at a Glance
 
 | Category | Outcome |
 |----------|-------------|
