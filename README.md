@@ -476,7 +476,7 @@ These activities will further strengthen the reproducibility, robustness, and tr
 
 
 ## Citation
-f this repository, workflow, figures, dashboard, or companion manuscript contributes to your research, teaching, or derivative work, please cite:
+If this repository, workflow, figures, dashboard, or companion manuscript contributes to your research, teaching, or derivative work, please cite:
 
 **Hammond AS.** *Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data. GitHub Repository, 2026.*
 
