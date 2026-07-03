@@ -393,30 +393,69 @@ The tables below provide direct access to the primary quantitative outputs of th
 | [Table E – SHAP Top Features](results/tables/Table_E_SHAP_TopFeatures.jpg)                    | Highest-ranked biomarkers identified through SHAP explainability analysis.                   |
 | [Table F – Biological Interpretation](results/tables/Table_F_BiologicalInterpretation.jpg)    | Functional categorization and biological roles of prioritized biomarker candidates.          |
 
-## Key Repository Documents
-
-The following documents provide detailed information about project scope, data sources, workflow design, and consolidated study findings.
-
-| Document | Description |
-|-----------|-------------|
-| [Project Scope](docs/project_scope.md) | Project objectives, research questions, analytical strategy, and study scope. |
-| [Data Sources](docs/data_sources.md) | Description of discovery and validation datasets, platform information, and data provenance. |
-| [Workflow Documentation](docs/workflow.md) | End-to-end machine learning workflow including preprocessing, modeling, explainability, and validation steps. |
-| [Results Summary](docs/results_summary.md) | Consolidated summary of model performance, biomarker prioritization, biological interpretation, and validation activities. |
-
 ## Repository Structure
 
+The repository is organized to separate datasets, analytical workflows, figures, reproducibility resources, and publication materials into a clear and maintainable structure.
+
+### Repository Tree
 ```text
-data/
-docs/
-notebooks/
-reports/
-results/
-  ├── figures/
-  ├── models/
-  └── tables/
-src/
+biomedical-ml-tb-biomarker-discovery/
+│
+├── assets/
+│   ├── figures/              # Publication-quality figures
+│   ├── images/               # README graphics and illustrations
+│   ├── posters/              # Scientific poster
+│   └── workflow/             # Workflow diagrams
+│
+├── data/                     # Processed datasets and metadata
+│
+├── docs/                     # Supplementary documentation
+│
+├── notebooks/                # Jupyter notebooks
+│
+├── reports/                  # Manuscript and supporting reports
+│
+├── results/                  # Model outputs and evaluation results
+│
+├── src/                      # Python source code
+│
+├── LICENSE                   # MIT License
+├── README.md                 # Repository landing page
+└── CITATION.cff              # Citation metadata
 ```
+
+### Directory Overview
+
+| Directory    | Purpose                                                            |
+| ------------ | ------------------------------------------------------------------ |
+| `assets/`    | Figures, README graphics, workflow diagrams, and scientific poster |
+| `data/`      | Processed datasets, metadata, and supporting data files            |
+| `docs/`      | Supplementary documentation and reference materials                |
+| `notebooks/` | Jupyter notebooks for exploratory analysis and model development   |
+| `reports/`   | Manuscript and supporting reports                                  |
+| `results/`   | Model outputs, evaluation metrics, and analytical results          |
+| `src/`       | Python source code implementing the machine learning workflow      |
+
+## Key Repository Documents
+The following resources provide the primary entry points for understanding, reproducing, and extending this work. Together they document the study, analytical workflow, computational resources, and supporting materials accompanying this repository.
+
+### Primary Resources
+| Resource                      | Purpose                   |
+| ----------------------------- | ------------------------- |
+| README.md                     | Complete repository overview and navigation      |
+| Companion Manuscript          | Complete companion manuscript describing the study |
+| Scientific Poster             | Visual summary            |
+| Interactive Tableau Dashboard | Interactive exploration of models, biomarkers, and biological interpretation   |
+
+### Supporting Resources
+| Resource | Purpose |
+|-----------|-------------|
+| [Project Scope](docs/project_scope.md) | Project objectives, research questions, analytical strategy, and study scope. |
+| [Workflow Documentation](docs/workflow.md) | End-to-end machine learning workflow including preprocessing, modeling, explainability, and validation steps. |
+| [Data Sources](docs/data_sources.md) | Description of discovery and validation datasets, platform information, and data provenance. |
+| [Reproducibility Resources/Results Summary](docs/results_summary.md) | Notebooks and Code. Consolidated summary of model performance, biomarker prioritization, biological interpretation, and validation activities. |
+| CITATION.cff              | Citation metadata    |
+| LICENSE                   | MIT License          |
 
 ## Future Work
 
