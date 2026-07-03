@@ -93,26 +93,6 @@ reproducibility resources into a single open-science platform.
 | Visualization    | Tableau               |
 | Version Control  | GitHub                |
 
-## Reproducibility Checklist
-✓ Public datasets
-
-✓ Version-controlled repository
-
-✓ External validation
-
-✓ Explainable AI
-
-✓ Interactive dashboard
-
-✓ Scientific poster
-
-✓ Companion manuscript
-
-✓ MIT License
-
-✓ Citation information
-
-✓ Future work roadmap
 
 ## Scientific Motivation
 
@@ -457,11 +437,33 @@ The following resources provide the primary entry points for understanding, repr
 | CITATION.cff              | Citation metadata    |
 | LICENSE                   | MIT License          |
 
+
+## Reproducibility Checklist
+This repository has been organized to maximize transparency, reproducibility, and long-term reuse.
+| ✓ | Resource                                           |
+| - | -------------------------------------------------- |
+| ✓ | Public discovery dataset (GSE19491)                |
+| ✓ | Independent external validation dataset (GSE25534) |
+| ✓ | End-to-end machine learning workflow               |
+| ✓ | Consensus biomarker prioritization                 |
+| ✓ | Explainable AI (SHAP) analysis                     |
+| ✓ | Biological interpretation                          |
+| ✓ | Interactive Tableau dashboard                      |
+| ✓ | Scientific poster                                  |
+| ✓ | Companion manuscript                               |
+| ✓ | Repository documentation                           |
+| ✓ | Version-controlled GitHub repository               |
+| ✓ | Citation metadata (CITATION.cff)                   |
+| ✓ | MIT License                                        |
+
+Together, these resources provide a transparent, reusable, and reproducible framework for machine learning–driven biomarker discovery.
+
+
 ## Future Work
 
 This repository documents the Phase 1 machine learning workflow for tuberculosis biomarker discovery and serves as the foundation for ongoing model refinement and biological validation.
 
-Planned future developments include:
+This repository will continue to evolve alongside the companion manuscript. Planned future developments include:
 
 * Reconstruct archived evaluation notebooks following data loss caused by a power interruption, restoring missing SVM and XGBoost performance metrics.
 * Complete external validation using the independent GSE25534 transcriptomic cohort and report quantitative validation metrics.
@@ -472,39 +474,35 @@ Planned future developments include:
 
 These activities will further strengthen the reproducibility, robustness, and translational relevance of the identified tuberculosis biomarker candidates.
 
----
-
-## Future Work
-
-Planned extensions include:
-
-* Reconstruction of external validation analyses
-* Active TB vs Latent TB classification
-* Hybrid TB classification models
-* Pathway enrichment analysis
-* Single-cell RNA-seq integration
-* Cell-type mapping of biomarker candidates
-* Advanced model comparison and robustness assessment
-
----
 
 ## Citation
+f this repository, workflow, figures, dashboard, or companion manuscript contributes to your research, teaching, or derivative work, please cite:
 
-If you use this repository, workflow, figures, tables, or other project materials in your research or educational work, please cite:
+**Hammond AS.** *Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data. GitHub Repository, 2026.*
 
-**Hammond AS.** *Biomedical Machine Learning for Tuberculosis Biomarker Discovery Using Human Transcriptomic Data.* GitHub Repository, 2026.
+For software citation metadata, see CITATION.cff.
 
 Please also cite the original Gene Expression Omnibus (GEO) datasets and their associated publications used in this study.
 
+
 ## License
 
-This project is distributed under the MIT License. See the `LICENSE` file for details.
+This repository is released under the MIT License, permitting reuse, modification, and redistribution with attribution.
+
+See the LICENSE file for the complete license text.
 
 
 ## Author
 
 **Abdulrahman S. Hammond**
 
-Biomedical Scientist | Immunology | Tuberculosis Research | Machine Learning
+Biomedical Scientist • Immunologist • Tuberculosis Research • Machine Learning • Biomarker Discovery
 
-Project Status: Active Development
+This repository accompanies ongoing research focused on explainable machine learning, transcriptomics, and biomarker discovery for infectious diseases.
+
+Project status: **Active Development**
+
+
+## Acknowledgments
+
+This work builds upon publicly available Gene Expression Omnibus (GEO) datasets and open-source scientific software. The author gratefully acknowledges the biomedical research community and the developers of open-source tools that enabled this work.
