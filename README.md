@@ -277,7 +277,7 @@ The final reduced biomarker panel consisted of 12 candidate genes combining cons
 
 Machine learning can identify genes that distinguish disease states with high predictive performance, but clinical translation requires more than statistical accuracy. This project therefore combined machine learning, SHAP explainability, consensus feature selection, and biological interpretation to prioritize biomarkers supported by both computational evidence and established immunological mechanisms.
 
-The final consensus biomarker panel reflects multiple aspects of the host immune response to Mycobacterium tuberculosis, including interferon signaling, inflammatory regulation, complement activation, and cellular adaptation during active disease. Rather than relying on a single algorithm, biomarkers were selected through agreement across complementary machine learning models, increasing confidence that the identified signatures represent robust biological phenomena rather than model-specific artifacts.
+The final consensus biomarker panel reflects multiple aspects of the host immune response to *Mycobacterium tuberculosis*, including interferon signaling, inflammatory regulation, complement activation, and cellular adaptation during active disease. Rather than relying on a single algorithm, biomarkers were selected through agreement across complementary machine learning models, increasing confidence that the identified signatures represent robust biological phenomena rather than model-specific artifacts.
 
 ## Biological Interpretation of Representative Biomarkers
 |Biological Theme | Representative Biomarkers | Biological Relevance |
