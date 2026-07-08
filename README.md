@@ -4,6 +4,16 @@
        width="100%">
 </p>
 
+<p align="center">
+  <a href="#project-overview">Project Overview</a> •
+  <a href="#machine-learning-workflow">Workflow</a> •
+  <a href="#key-results">Key Results</a> •
+  <a href="#consensus-biomarker-panel">Biomarkers</a> •
+  <a href="#interactive-visualization-dashboard">Dashboard</a> •
+  <a href="#scientific-poster">Poster</a> •
+  <a href="#reproducibility-checklist">Reproducibility</a> •
+  <a href="#project-resources">Resources</a>
+</p>
 
 ## Project Overview
 
@@ -13,7 +23,7 @@ The project integrates Random Forest, Logistic Regression, Support Vector Machin
 
 Beyond predictive performance, the study emphasizes biological interpretability, identifying host-response signatures that are statistically robust, biologically meaningful, and potentially translatable into future diagnostic applications.
 
-This repository provides the complete collection of project resources, including the manuscript, scientific poster, interactive Tableau dashboard, workflow documentation, figures, tables, and reproducibility materials.
+This repository accompanies the research presented in the companion manuscript and provides the computational resources, figures, interactive visualizations, and reproducibility materials supporting the study.
 
 ---
 
@@ -34,13 +44,13 @@ The repository extends the manuscript by providing materials that cannot easily 
 * Reproducibility documentation
 * Project evolution and future work
 
-Together, the manuscript and this repository provide a comprehensive, transparent, and reproducible record of the project.
+Together, the manuscript and repository provide a transparent, reproducible, and extensible scientific record of the complete bimarker discovery workflow.
 
 ## Project Resources
 
 | Resource | Description | Location |
 |----------|-------------|----------|
-| 📄 **Disease** | Complete scientific manuscript | `/reports/` |
+| 📄 **Companion Manuscript** | Complete scientific manuscript | `/reports/` |
 | 📊 **Interactive Dashboard** | Interactive Tableau visualization | Tableau Public |
 | 🖼️ **Scientific Poster** | Conference-style project summary | `/reports/poster/` |
 | 📈 **Figures** | Publication-quality graphics | `/results/figures/` |
@@ -54,8 +64,6 @@ This repository goes beyond a traditional code repository by serving as a
 comprehensive companion to the manuscript. It integrates computational
 analysis, biological interpretation, interactive visualization, and
 reproducibility resources into a single open-science platform.
-
-### Highlights
 
 - End-to-end machine learning workflow for tuberculosis biomarker discovery.
 - Four complementary machine learning models with comparative evaluation.
@@ -73,7 +81,7 @@ reproducibility resources into a single open-science platform.
 | Disease Focus               | Tuberculosis (TB)                                                                                     |
 | Training Dataset            | GEO GSE19491                                                                                          |
 | External Validation Dataset | GEO GSE25534                                                                                          |
-| Machine Learning Models     | Random Forest, Logistic Regression, Linear SVM, XGBoost                                               |
+| Machine Learning Models     | Random Forest, Logistic Regression, Linear Support Vector Machine (Linear SVM), XGBoost                                               |
 | Explainable AI              | SHAP                                                                                                  |
 | Consensus Biomarker Panel   | Tier 1 + Tier 2 candidate genes                                                                       |
 | Biological Themes           | Interferon signaling, inflammation, complement & coagulation, immune regulation & cellular adaptation |
@@ -92,7 +100,8 @@ reproducibility resources into a single open-science platform.
 | Data Source      | GEO                   |
 | Visualization    | Tableau               |
 | Version Control  | GitHub                |
-
+| Documentation    | Markdown               |
+| Repository Hosting  | GitHub                |
 
 ## Scientific Motivation
 
@@ -116,7 +125,7 @@ to identify biomarker candidates that are both statistically robust and biologic
 
 | Category | Outcome |
 |----------|-------------|
-| **Manuscript** | Human Tuberculosis (TB). |
+| **Disease Focus** | Human Tuberculosis (TB). |
 | **Training Dataset** | GEO GSE19491. |
 | **External Validation** | GEO GSE25534. |
 | **Machine Learning Models** | Random Forest, Logistic Regression, Linear SVM, XGBoost.|
@@ -132,7 +141,7 @@ to identify biomarker candidates that are both statistically robust and biologic
 | **Random Forest** | 0.793 |0.921  |
 | **Logistic Regression** | 0.806 |0.943  |
 | **Linear SVM** | 0.840 |0.955  |
-| **XGBoost** | 0.923 |**Pending**  |
+| **XGBoost** | 0.923 |**To be reconstructed**  |
 
 Consensus biomarkers were prioritized using agreement across multiple machine learning models together with SHAP explainability, resulting in biologically interpretable candidate signatures for tuberculosis diagnosis.
 
@@ -207,7 +216,7 @@ The interactive dashboard complements the manuscript by providing an explorable 
 
 ![Machine Learning Workflow](results/figures/Figure_0_ML_Workflow.png)
 
-*Figure 0. End-to-end machine learning workflow used for tuberculosis biomarker discovery and biological interpretation.*
+*Figure 1. End-to-end machine learning workflow used for tuberculosis biomarker discovery and biological interpretation.*
 ## Key Results
 
 ### Baseline Model Performance
@@ -266,7 +275,7 @@ The poster provides a concise visual summary of the complete biomarker discovery
 * PDE4DIP
 * RNA28S5
 
-### Combined Reduced Panel
+### Final Consensus Biomarker Panel
 
 The final reduced biomarker panel consisted of 12 candidate genes combining consensus machine learning support and biological relevance.
 
