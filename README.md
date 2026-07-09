@@ -214,9 +214,10 @@ The interactive dashboard complements the manuscript by providing an explorable 
 
 ## Machine Learning Workflow
 
-![Machine Learning Workflow](results/figures/Figure_0_ML_Workflow.png)
+![Machine Learning Workflow](results/figures/Figure_A_Project_Workflow.png)
 
-*Figure 1. End-to-end machine learning workflow used for tuberculosis biomarker discovery and biological interpretation.*
+*Figure A. End-to-end machine learning workflow illustrating the analytical pipeline from transcriptomic preprocessing through biomarker discovery and biological interpretation.*
+
 ## Key Results
 
 ### Baseline Model Performance
@@ -308,6 +309,8 @@ The resulting workflow bridges computational modeling with systems immunology, p
        width="100%">
 </p>
 
+*Figure 5. **Biological Themes at a Glance.** Machine learning–derived consensus biomarkers were organized into four major biological themes—including interferon signaling, inflammatory regulation, complement/coagulation, and cellular adaptation—illustrating how computational feature selection converges with biological interpretation to identify translational biomarker candidates.*
+
 ## Explainability Analysis
 
 Model interpretability was assessed using SHAP (SHapley Additive exPlanations).
@@ -319,17 +322,17 @@ SHAP analysis identified multiple immune-associated genes among the strongest co
 ![ROC Curve Comparison](results/figures/Figure_1_ROC_Curves.png)
 *Figure 1. Receiver Operating Characteristic (ROC) curve comparison of Random Forest (RF), Logistic Regression (LR), and Support Vector Machine (SVM) models for Active TB versus Healthy Control classification. All models demonstrated strong discriminatory performance, with SVM achieving the highest ROC-AUC.*
 
+### Cross-Validation Comparison
+- [Figure 2: Cross-Validation Comparison](results/figures/Figure_2_CrossValidationComparison.png)
+
+*Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and generalizability.*
+
 ### SHAP Summary Plot
 
 ![SHAP Summary Plot](results/figures/Figure_3_SHAP_Summary.png)
 *Figure 3. SHAP summary plot showing gene-level contributions to Active TB versus Healthy Control classification. STAT1, GBP1P1, PARP14, NSMAF, and other immune-associated genes contributed strongly to model predictions.*
 
-Additional visualizations are available in:
-
-- [Figure 2: Cross-Validation Comparison](results/figures/Figure_2_CrossValidationComparison.png)
-
-*Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and generalizability.*
-
+### SHAP Feature Importance Plot 
 - [Figure 4: SHAP Feature Importance Plot](results/figures/Figure_4_SHAP_Barplot.png)
 
 *Figure 4. SHAP feature importance ranking of candidate biomarkers. Genes with larger mean absolute SHAP values exerted greater influence on model predictions and were prioritized for downstream biological interpretation.*
@@ -489,7 +492,7 @@ If this repository, workflow, figures, dashboard, or companion manuscript contri
 
 **Hammond AS.** *Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data. GitHub Repository, 2026.*
 
-For software citation metadata, see CITATION.cff.
+For citation metadata, see CITATION.cff.
 
 Please also cite the original Gene Expression Omnibus (GEO) datasets and their associated publications used in this study.
 
