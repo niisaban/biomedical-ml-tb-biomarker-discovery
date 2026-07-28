@@ -15,6 +15,15 @@
   <a href="#project-resources">Resources</a>
 </p>
 
+Repository Status
+
+✔ Manuscript synchronized
+✔ Figures finalized
+✔ Dashboard available
+✔ Poster available
+✔ Reproducibility resources included
+✔ Companion repository Version 1.0
+
 ## Project Overview
 
 This repository accompanies our research on machine learning–driven discovery of blood-based transcriptional biomarkers for tuberculosis (TB) using publicly available human gene expression datasets.
@@ -51,7 +60,7 @@ Together, the manuscript and repository provide a transparent, reproducible, and
 | Resource | Description | Location |
 |----------|-------------|----------|
 | 📄 **Companion Manuscript** | Complete scientific manuscript | `/reports/` |
-| 📊 **Interactive Dashboard** | Interactive Tableau visualization | Tableau Public |
+| 📊 **Interactive Dashboard** | Interactive Tableau dasboard for exploratory analysis | Tableau Public |
 | 🖼️ **Scientific Poster** | Conference-style project summary | `/reports/poster/` |
 | 📈 **Figures** | Publication-quality graphics | `/results/figures/` |
 | 📋 **Tables** | Performance metrics and biomarker tables | `/results/tables/` |
@@ -70,7 +79,7 @@ reproducibility resources into a single open-science platform.
 - Consensus biomarker prioritization using multi-model agreement.
 - Explainable AI (SHAP) for interpretable feature importance.
 - Biological interpretation linking biomarkers to immune pathways.
-- Independent external validation framework using GEO GSE25534.
+- External validation framework based on the independent GEO cohort GSE25534.
 - Interactive Tableau dashboard for exploratory analysis.
 - Publication-quality figures, workflow diagrams, and scientific poster.
 - Complete reproducibility resources accompanying the manuscript.
@@ -132,7 +141,7 @@ to identify biomarker candidates that are both statistically robust and biologic
 | **Explanability** | SHAP feature importance. |
 | **Feature Selection** | Consensus multi-model biomarker prioritization. |
 | **Biological Context** | Single-cell mapping and systems immunology. |
-| **Deliverables** | Manuscript, dashboard, poster, workflow, reproducibility resources. |
+| **Companion Resources** | Manuscript, dashboard, poster, workflow, reproducibility resources. |
 
 ## Performance Table
 
@@ -141,7 +150,7 @@ to identify biomarker candidates that are both statistically robust and biologic
 | **Random Forest** | 0.793 |0.921  |
 | **Logistic Regression** | 0.806 |0.943  |
 | **Linear SVM** | 0.840 |0.955  |
-| **XGBoost** | 0.923 |**To be reconstructed**  |
+| **XGBoost** | 0.923 |**Additional evaluation metrics forthcoming**  |
 
 Consensus biomarkers were prioritized using agreement across multiple machine learning models together with SHAP explainability, resulting in biologically interpretable candidate signatures for tuberculosis diagnosis.
 
@@ -192,7 +201,7 @@ For Phase 1 analyses, the primary classification task focused on:
 
 **GSE25534**
 
-Used as an independent cohort for feature alignment, biomarker reproducibility assessment, and future model generalizability evaluation.
+Used as an independent cohort supporting feature alignment, biomarker reproducibility assessment, and future model generalizability evaluation.
 
 ---
 
@@ -206,7 +215,7 @@ Unlike the static figures presented throughout this repository, the dashboard
 allows readers to interactively explore model performance, biomarker rankings,
 biological categories, SHAP feature importance, and candidate gene signatures.
 
-**Launch the interactive dashboard:**
+**Launch the interactive dashboard:** (opens Tableau Public)
 [Biomedical ML for TB Biomarker Discovery Dashboard](https://public.tableau.com/app/profile/abdulrahman.hammond/viz/ML-TB_project_dashboard_ver3_ash22Jun2026/Dashboard1)
 
 The interactive dashboard complements the manuscript by providing an explorable interface for the complete analytical workflow and project results.
@@ -226,8 +235,8 @@ The interactive dashboard complements the manuscript by providing an explorable 
 | ------------------- | -------- | --------- | ------ | ------- |
 | Logistic Regression | 0.89     | 0.89      | 0.97   | 0.806   |
 | Random Forest       | 0.87     | 0.87      | 0.97   | 0.793   |
-| SVM                 | NA       | NA        | 1.00   | 0.840   |
-| XGBoost             | NA       | NA        | NA     | 0.923   |
+| SVM                 | —       | —        | 1.00   | 0.840   |
+| XGBoost             | —       | —        | —     | 0.923   |
 
 ### Major Findings
 
