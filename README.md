@@ -15,14 +15,15 @@
   <a href="#project-resources">Resources</a>
 </p>
 
-Repository Status
-
-✔ Manuscript synchronized
-✔ Figures finalized
-✔ Dashboard available
-✔ Poster available
-✔ Reproducibility resources included
-✔ Companion repository Version 1.0
+## Repository Status
+| ✔ | Resource                                           |
+| - | -------------------------------------------------- |
+| ✔ | Manuscript synchronized |
+| ✔ | Figures finalized |
+| ✔ | Dashboard available |
+| ✔ | Poster available |
+| ✔ | Reproducibility resources included |
+| ✔ | Companion repository Version 1.0 |
 
 ## Project Overview
 
@@ -329,12 +330,12 @@ SHAP analysis identified multiple immune-associated genes among the strongest co
 ### ROC Curve Comparison
 
 ![ROC Curve Comparison](results/figures/Figure_1_ROC_Curves.png)
-*Figure 1. Receiver Operating Characteristic (ROC) curve comparison of Random Forest (RF), Logistic Regression (LR), and Support Vector Machine (SVM) models for Active TB versus Healthy Control classification. All models demonstrated strong discriminatory performance, with SVM achieving the highest ROC-AUC.*
+*Figure 1. Receiver Operating Characteristic (ROC) curve comparison of Random Forest (RF), Logistic Regression (LR), and Support Vector Machine (SVM) models for Active TB versus Healthy Control classification. All three models demonstrated strong discriminatory performance, with SVM achieving the highest ROC-AUC.*
 
 ### Cross-Validation Comparison
 - [Figure 2: Cross-Validation Comparison](results/figures/Figure_2_CrossValidationComparison.png)
 
-*Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and generalizability.*
+*Figure 2. Stratified 5-fold cross-validation performance across machine learning models. SVM demonstrated the strongest mean validation performance, supporting model robustness and suggesting good generalizability within the discovery dataset.*
 
 ### SHAP Summary Plot
 
@@ -373,7 +374,7 @@ Completed activities include:
 * Feature alignment
 * Platform compatibility verification
 
-Final validation modeling and performance metrics remain pending reconstruction following notebook loss caused by a power interruption. The validation workflow will be rerun to restore quantitative performance estimates and complete the model generalizability assessment.
+Final external validation modeling and performance metrics remain pending reconstruction following notebook loss caused by a power interruption. The validation workflow will be rerun to restore quantitative performance estimates and complete the model generalizability assessment.
 
 ---
 
@@ -390,7 +391,7 @@ The tables below provide direct access to the primary quantitative outputs of th
 | [Table A – Baseline Model Performance](results/tables/Table_A_Phase_1_BaselinePerformance.jpg) | Classification performance metrics for Logistic Regression, Random Forest, SVM, and XGBoost. |
 | [Table B – Consensus Biomarker Panels](results/tables/Table_B_Phase_1_TierPanels.jpg)          | Tier 1 and Tier 2 biomarker candidates identified through multi-model consensus.             |
 | [Table C – Robustness Assessment](results/tables/Table_C_Phase_1_RobustnessAssessment.jpg)     | Cross-model support and robustness evaluation of candidate biomarkers.                       |
-| [Table D – External Validation Workflow](results/tables/Table_D_ExternalValidation.jpg)       | Status of external validation activities using GSE25534.                                     |
+| [Table D – External Validation Workflow](results/tables/Table_D_ExternalValidation.jpg)       | summary of external validation workflow status using GSE25534.                                     |
 | [Table E – SHAP Top Features](results/tables/Table_E_SHAP_TopFeatures.jpg)                    | Highest-ranked biomarkers identified through SHAP explainability analysis.                   |
 | [Table F – Biological Interpretation](results/tables/Table_F_BiologicalInterpretation.jpg)    | Functional categorization and biological roles of prioritized biomarker candidates.          |
 
@@ -486,7 +487,7 @@ This repository documents the Phase 1 machine learning workflow for tuberculosis
 
 This repository will continue to evolve alongside the companion manuscript. Planned future developments include:
 
-* Reconstruct archived evaluation notebooks following data loss caused by a power interruption, restoring missing SVM and XGBoost performance metrics.
+* Reconstruct archived evaluation notebooks following data loss caused by a power interruption, reconstructing remaining SVM and XGBoost evaluation metrics.
 * Complete external validation using the independent GSE25534 transcriptomic cohort and report quantitative validation metrics.
 * Evaluate additional publicly available tuberculosis transcriptomic datasets to assess model generalizability.
 * Expand pathway enrichment, gene network analysis, and systems-level interpretation of prioritized biomarkers.
@@ -499,7 +500,7 @@ These activities will further strengthen the reproducibility, robustness, and tr
 ## Citation
 If this repository, workflow, figures, dashboard, or companion manuscript contributes to your research, teaching, or derivative work, please cite:
 
-**Hammond AS.** *Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data. GitHub Repository, 2026.*
+**Hammond AS.** *Machine Learning–Driven Biomarker Discovery for Tuberculosis Using Human Transcriptomic Data. GitHub repository. 2026.*
 
 For citation metadata, see CITATION.cff.
 
