@@ -54,7 +54,7 @@ The repository extends the manuscript by providing materials that cannot easily 
 * Reproducibility documentation
 * Project evolution and future work
 
-Together, the manuscript and repository provide a transparent, reproducible, and extensible scientific record of the complete bimarker discovery workflow.
+Together, the manuscript and repository provide a transparent, reproducible, and extensible scientific record of the complete biomarker discovery workflow.
 
 ## Project Resources
 
